@@ -1,4 +1,4 @@
-# Autoregressive and Moving Average Time Series Model for IOT Sensor Data 
+# Auto-regressive and Moving Average Time Series Model for IOT Sensor Data 
 
 ## Overview
 
@@ -6,7 +6,7 @@ We will study time series analysis, focusing specifically on forecasting sensor 
 
 ---
 
-### Project Objectives
+### Objectives
 
 - Gain a solid understanding of time series analysis.
 - Explore different types of time series data, including continuous and discrete.
@@ -54,7 +54,7 @@ The dataset used in this project consists of IoT sensor data from a chiller. It 
 
 ---
 
-## Project Structure
+## Code Structure
 
 - **input**: Contains the input data file "Data-Chillers.csv."
 - **lib**: Contains reference materials and a Jupyter Notebook workbook for the project.
@@ -62,33 +62,6 @@ The dataset used in this project consists of IoT sensor data from a chiller. It 
 - **Readme.md**: This file, providing instructions and explanations about the project.
 - **requirements.txt**: Specifies required dependencies.
 - **src**: Contains the source code files, including the main engine file and modules for the machine learning pipeline.
-
----
-
-## Key Concepts Explored
-
-- Understanding the importance of time series analysis.
-- Knowledge of different types of time series data.
-- Awareness of the components of a time series.
-- Ability to assess stationarity in time series data.
-- Interpretation of ACF and PACF plots for modeling.
-- Building MA and AR models.
-- Hands-on experience in preprocessing time series data.
-- Exploratory Data Analysis skills.
-- Evaluating model performance using RMSE.
-
----
-
-# Time Series
-
-Time series is a sequence of information which attaches a time period to each value.
-The value can be pretty much anything measurable.
-It depends on time in some way, like prices, humidity or number of people.
-As long as the values we record are unambiguous, any medium could be measured with Time series.
-There aren't any limitations regarding the total time span of our Time series.
-It could be a minute, a day, a month or even a century.
-All we need is a starting and an ending point.
-
 
 ---
 
